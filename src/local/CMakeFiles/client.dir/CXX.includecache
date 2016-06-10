@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/linghutf/code/boost/asio/tcp/client.cc
+netcommon.h
+/home/linghutf/code/boost/asio/tcp/netcommon.h
+
+/home/linghutf/code/boost/asio/tcp/netcommon.h
+boost/asio.hpp
+-
+boost/bind.hpp
+-
+boost/array.hpp
+-
+boost/date_time/posix_time/posix_time.hpp
+-
+

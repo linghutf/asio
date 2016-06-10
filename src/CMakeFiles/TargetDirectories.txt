@@ -1,0 +1,4 @@
+/home/linghutf/git-work/asio/src/timer/CMakeFiles/async_timer.dir
+/home/linghutf/git-work/asio/src/tcp/CMakeFiles/client.dir
+/home/linghutf/git-work/asio/src/local/CMakeFiles/local_serv.dir
+/home/linghutf/git-work/asio/src/tcp/CMakeFiles/server.dir

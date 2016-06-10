@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2   CMakeFiles/client.dir/client.cc.o  -o ../tcp/client -rdynamic -lboost_thread -lboost_system -lboost_chrono -lpthread 

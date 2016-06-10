@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2   CMakeFiles/local_serv.dir/server.cc.o  -o local_serv -rdynamic -lboost_thread -lboost_system -lboost_chrono -lpthread 
