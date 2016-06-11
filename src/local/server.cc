@@ -1,5 +1,8 @@
 #include "netcommon.h"
 
+using domain = boost::asio::local::stream_protocol;
+
+
 class AsyncConnection:public boost::enable_shared_from_this<AsyncConnection>{
     public:
         AsyncConnection(boost::asio::io_service& service):
@@ -20,8 +23,6 @@ class AsyncConnection:public boost::enable_shared_from_this<AsyncConnection>{
             return socket_;
         }
 
-        virtual ~AsyncConnection()
-        {}
 
     private:
 

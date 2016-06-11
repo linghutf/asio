@@ -145,6 +145,8 @@ class Server{
         {
             if(!ec){
                 new_session->start();
+            }else if((ec == boost::asio::error::eof)|(ec == boost::asio::error::connection_aborted)){
+                acceptor_.close();
             }
             //listen another socket conn.
             start_accept();
