@@ -1,0 +1,12 @@
+syntax="proto2";
+
+package info;
+
+message Info{
+    required int32 id = 1;
+    required string name = 2;
+}
+
+message Message_t{
+    repeated Info msg = 1;
+}

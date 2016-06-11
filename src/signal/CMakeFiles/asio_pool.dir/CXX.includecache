@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/linghutf/git-work/asio/src/signal/asio_pool.cc
+boost/asio.hpp
+-
+boost/bind.hpp
+-
+iostream
+-
+

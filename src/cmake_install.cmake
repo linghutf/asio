@@ -37,6 +37,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/linghutf/git-work/asio/src/timer/cmake_install.cmake")
   include("/home/linghutf/git-work/asio/src/tcp/cmake_install.cmake")
   include("/home/linghutf/git-work/asio/src/local/cmake_install.cmake")
+  include("/home/linghutf/git-work/asio/src/serial/cmake_install.cmake")
+  include("/home/linghutf/git-work/asio/src/signal/cmake_install.cmake")
+  include("/home/linghutf/git-work/asio/src/conn_pair/cmake_install.cmake")
+  include("/home/linghutf/git-work/asio/src/log/cmake_install.cmake")
 
 endif()
 

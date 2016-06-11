@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2   CMakeFiles/buffer_array_test.dir/buffer_array.cc.o  -o buffer_array_test -rdynamic -lboost_thread -lboost_system -lboost_chrono -lpthread -lprotobuf -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/log4_test.dir/log4cplus.cc.o  -o log4_test -rdynamic -lboost_thread -lboost_system -lboost_chrono -lpthread -llog4cplus 

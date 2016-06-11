@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/linghutf/git-work/asio/src/log/common.h
+log4cplus/logger.h
+-
+log4cplus/loggingmacros.h
+-
+log4cplus/configurator.h
+-
+log4cplus/helpers/loglog.h
+-
+log4cplus/ndc.h
+-
+log4cplus/appender.h
+-
+log4cplus/fileappender.h
+-
+log4cplus/asyncappender.h
+-
+log4cplus/layout.h
+-
+
+/home/linghutf/git-work/asio/src/log/log4cplus.cc
+common.h
+/home/linghutf/git-work/asio/src/log/common.h
+

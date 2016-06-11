@@ -74,7 +74,7 @@ timer/preinstall:
 timer/CMakeFiles/async_timer.dir/all:
 	$(MAKE) -f timer/CMakeFiles/async_timer.dir/build.make timer/CMakeFiles/async_timer.dir/depend
 	$(MAKE) -f timer/CMakeFiles/async_timer.dir/build.make timer/CMakeFiles/async_timer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  2
 	@echo "Built target async_timer"
 .PHONY : timer/CMakeFiles/async_timer.dir/all
 
@@ -126,7 +126,7 @@ tcp/preinstall:
 tcp/CMakeFiles/client.dir/all:
 	$(MAKE) -f tcp/CMakeFiles/client.dir/build.make tcp/CMakeFiles/client.dir/depend
 	$(MAKE) -f tcp/CMakeFiles/client.dir/build.make tcp/CMakeFiles/client.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  4
 	@echo "Built target client"
 .PHONY : tcp/CMakeFiles/client.dir/all
 
@@ -161,7 +161,7 @@ clean: tcp/CMakeFiles/client.dir/clean
 tcp/CMakeFiles/server.dir/all:
 	$(MAKE) -f tcp/CMakeFiles/server.dir/build.make tcp/CMakeFiles/server.dir/depend
 	$(MAKE) -f tcp/CMakeFiles/server.dir/build.make tcp/CMakeFiles/server.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  14
 	@echo "Built target server"
 .PHONY : tcp/CMakeFiles/server.dir/all
 
@@ -211,7 +211,7 @@ local/preinstall:
 local/CMakeFiles/local_serv.dir/all:
 	$(MAKE) -f local/CMakeFiles/local_serv.dir/build.make local/CMakeFiles/local_serv.dir/depend
 	$(MAKE) -f local/CMakeFiles/local_serv.dir/build.make local/CMakeFiles/local_serv.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  5
 	@echo "Built target local_serv"
 .PHONY : local/CMakeFiles/local_serv.dir/all
 
@@ -237,6 +237,354 @@ local/CMakeFiles/local_serv.dir/clean:
 
 # clean rule for target.
 clean: local/CMakeFiles/local_serv.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory serial
+
+# Convenience name for "all" pass in the directory.
+serial/all: serial/CMakeFiles/buffer_array_test.dir/all
+serial/all: serial/CMakeFiles/msg_client.dir/all
+serial/all: serial/CMakeFiles/msg_server.dir/all
+.PHONY : serial/all
+
+# Convenience name for "clean" pass in the directory.
+serial/clean: serial/CMakeFiles/buffer_array_test.dir/clean
+serial/clean: serial/CMakeFiles/msg_client.dir/clean
+serial/clean: serial/CMakeFiles/msg_server.dir/clean
+.PHONY : serial/clean
+
+# Convenience name for "preinstall" pass in the directory.
+serial/preinstall:
+.PHONY : serial/preinstall
+
+#=============================================================================
+# Target rules for target serial/CMakeFiles/buffer_array_test.dir
+
+# All Build rule for target.
+serial/CMakeFiles/buffer_array_test.dir/all:
+	$(MAKE) -f serial/CMakeFiles/buffer_array_test.dir/build.make serial/CMakeFiles/buffer_array_test.dir/depend
+	$(MAKE) -f serial/CMakeFiles/buffer_array_test.dir/build.make serial/CMakeFiles/buffer_array_test.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  3
+	@echo "Built target buffer_array_test"
+.PHONY : serial/CMakeFiles/buffer_array_test.dir/all
+
+# Include target in all.
+all: serial/CMakeFiles/buffer_array_test.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+serial/CMakeFiles/buffer_array_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 serial/CMakeFiles/buffer_array_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 0
+.PHONY : serial/CMakeFiles/buffer_array_test.dir/rule
+
+# Convenience name for target.
+buffer_array_test: serial/CMakeFiles/buffer_array_test.dir/rule
+.PHONY : buffer_array_test
+
+# clean rule for target.
+serial/CMakeFiles/buffer_array_test.dir/clean:
+	$(MAKE) -f serial/CMakeFiles/buffer_array_test.dir/build.make serial/CMakeFiles/buffer_array_test.dir/clean
+.PHONY : serial/CMakeFiles/buffer_array_test.dir/clean
+
+# clean rule for target.
+clean: serial/CMakeFiles/buffer_array_test.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target serial/CMakeFiles/msg_client.dir
+
+# All Build rule for target.
+serial/CMakeFiles/msg_client.dir/all:
+	$(MAKE) -f serial/CMakeFiles/msg_client.dir/build.make serial/CMakeFiles/msg_client.dir/depend
+	$(MAKE) -f serial/CMakeFiles/msg_client.dir/build.make serial/CMakeFiles/msg_client.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  7 8 9
+	@echo "Built target msg_client"
+.PHONY : serial/CMakeFiles/msg_client.dir/all
+
+# Include target in all.
+all: serial/CMakeFiles/msg_client.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+serial/CMakeFiles/msg_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 serial/CMakeFiles/msg_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 0
+.PHONY : serial/CMakeFiles/msg_client.dir/rule
+
+# Convenience name for target.
+msg_client: serial/CMakeFiles/msg_client.dir/rule
+.PHONY : msg_client
+
+# clean rule for target.
+serial/CMakeFiles/msg_client.dir/clean:
+	$(MAKE) -f serial/CMakeFiles/msg_client.dir/build.make serial/CMakeFiles/msg_client.dir/clean
+.PHONY : serial/CMakeFiles/msg_client.dir/clean
+
+# clean rule for target.
+clean: serial/CMakeFiles/msg_client.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target serial/CMakeFiles/msg_server.dir
+
+# All Build rule for target.
+serial/CMakeFiles/msg_server.dir/all:
+	$(MAKE) -f serial/CMakeFiles/msg_server.dir/build.make serial/CMakeFiles/msg_server.dir/depend
+	$(MAKE) -f serial/CMakeFiles/msg_server.dir/build.make serial/CMakeFiles/msg_server.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  10 11 12
+	@echo "Built target msg_server"
+.PHONY : serial/CMakeFiles/msg_server.dir/all
+
+# Include target in all.
+all: serial/CMakeFiles/msg_server.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+serial/CMakeFiles/msg_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 serial/CMakeFiles/msg_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 0
+.PHONY : serial/CMakeFiles/msg_server.dir/rule
+
+# Convenience name for target.
+msg_server: serial/CMakeFiles/msg_server.dir/rule
+.PHONY : msg_server
+
+# clean rule for target.
+serial/CMakeFiles/msg_server.dir/clean:
+	$(MAKE) -f serial/CMakeFiles/msg_server.dir/build.make serial/CMakeFiles/msg_server.dir/clean
+.PHONY : serial/CMakeFiles/msg_server.dir/clean
+
+# clean rule for target.
+clean: serial/CMakeFiles/msg_server.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory signal
+
+# Convenience name for "all" pass in the directory.
+signal/all: signal/CMakeFiles/asio_pool.dir/all
+signal/all: signal/CMakeFiles/signal_test.dir/all
+.PHONY : signal/all
+
+# Convenience name for "clean" pass in the directory.
+signal/clean: signal/CMakeFiles/asio_pool.dir/clean
+signal/clean: signal/CMakeFiles/signal_test.dir/clean
+.PHONY : signal/clean
+
+# Convenience name for "preinstall" pass in the directory.
+signal/preinstall:
+.PHONY : signal/preinstall
+
+#=============================================================================
+# Target rules for target signal/CMakeFiles/asio_pool.dir
+
+# All Build rule for target.
+signal/CMakeFiles/asio_pool.dir/all:
+	$(MAKE) -f signal/CMakeFiles/asio_pool.dir/build.make signal/CMakeFiles/asio_pool.dir/depend
+	$(MAKE) -f signal/CMakeFiles/asio_pool.dir/build.make signal/CMakeFiles/asio_pool.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  1
+	@echo "Built target asio_pool"
+.PHONY : signal/CMakeFiles/asio_pool.dir/all
+
+# Include target in all.
+all: signal/CMakeFiles/asio_pool.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+signal/CMakeFiles/asio_pool.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 signal/CMakeFiles/asio_pool.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 0
+.PHONY : signal/CMakeFiles/asio_pool.dir/rule
+
+# Convenience name for target.
+asio_pool: signal/CMakeFiles/asio_pool.dir/rule
+.PHONY : asio_pool
+
+# clean rule for target.
+signal/CMakeFiles/asio_pool.dir/clean:
+	$(MAKE) -f signal/CMakeFiles/asio_pool.dir/build.make signal/CMakeFiles/asio_pool.dir/clean
+.PHONY : signal/CMakeFiles/asio_pool.dir/clean
+
+# clean rule for target.
+clean: signal/CMakeFiles/asio_pool.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target signal/CMakeFiles/signal_test.dir
+
+# All Build rule for target.
+signal/CMakeFiles/signal_test.dir/all:
+	$(MAKE) -f signal/CMakeFiles/signal_test.dir/build.make signal/CMakeFiles/signal_test.dir/depend
+	$(MAKE) -f signal/CMakeFiles/signal_test.dir/build.make signal/CMakeFiles/signal_test.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  15
+	@echo "Built target signal_test"
+.PHONY : signal/CMakeFiles/signal_test.dir/all
+
+# Include target in all.
+all: signal/CMakeFiles/signal_test.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+signal/CMakeFiles/signal_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 signal/CMakeFiles/signal_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 0
+.PHONY : signal/CMakeFiles/signal_test.dir/rule
+
+# Convenience name for target.
+signal_test: signal/CMakeFiles/signal_test.dir/rule
+.PHONY : signal_test
+
+# clean rule for target.
+signal/CMakeFiles/signal_test.dir/clean:
+	$(MAKE) -f signal/CMakeFiles/signal_test.dir/build.make signal/CMakeFiles/signal_test.dir/clean
+.PHONY : signal/CMakeFiles/signal_test.dir/clean
+
+# clean rule for target.
+clean: signal/CMakeFiles/signal_test.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory conn_pair
+
+# Convenience name for "all" pass in the directory.
+conn_pair/all: conn_pair/CMakeFiles/pair.dir/all
+.PHONY : conn_pair/all
+
+# Convenience name for "clean" pass in the directory.
+conn_pair/clean: conn_pair/CMakeFiles/pair.dir/clean
+.PHONY : conn_pair/clean
+
+# Convenience name for "preinstall" pass in the directory.
+conn_pair/preinstall:
+.PHONY : conn_pair/preinstall
+
+#=============================================================================
+# Target rules for target conn_pair/CMakeFiles/pair.dir
+
+# All Build rule for target.
+conn_pair/CMakeFiles/pair.dir/all:
+	$(MAKE) -f conn_pair/CMakeFiles/pair.dir/build.make conn_pair/CMakeFiles/pair.dir/depend
+	$(MAKE) -f conn_pair/CMakeFiles/pair.dir/build.make conn_pair/CMakeFiles/pair.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  13
+	@echo "Built target pair"
+.PHONY : conn_pair/CMakeFiles/pair.dir/all
+
+# Include target in all.
+all: conn_pair/CMakeFiles/pair.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+conn_pair/CMakeFiles/pair.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 conn_pair/CMakeFiles/pair.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 0
+.PHONY : conn_pair/CMakeFiles/pair.dir/rule
+
+# Convenience name for target.
+pair: conn_pair/CMakeFiles/pair.dir/rule
+.PHONY : pair
+
+# clean rule for target.
+conn_pair/CMakeFiles/pair.dir/clean:
+	$(MAKE) -f conn_pair/CMakeFiles/pair.dir/build.make conn_pair/CMakeFiles/pair.dir/clean
+.PHONY : conn_pair/CMakeFiles/pair.dir/clean
+
+# clean rule for target.
+clean: conn_pair/CMakeFiles/pair.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory log
+
+# Convenience name for "all" pass in the directory.
+log/all: log/CMakeFiles/log4_test.dir/all
+log/all: log/CMakeFiles/spdlog_test.dir/all
+.PHONY : log/all
+
+# Convenience name for "clean" pass in the directory.
+log/clean: log/CMakeFiles/log4_test.dir/clean
+log/clean: log/CMakeFiles/spdlog_test.dir/clean
+.PHONY : log/clean
+
+# Convenience name for "preinstall" pass in the directory.
+log/preinstall:
+.PHONY : log/preinstall
+
+#=============================================================================
+# Target rules for target log/CMakeFiles/log4_test.dir
+
+# All Build rule for target.
+log/CMakeFiles/log4_test.dir/all:
+	$(MAKE) -f log/CMakeFiles/log4_test.dir/build.make log/CMakeFiles/log4_test.dir/depend
+	$(MAKE) -f log/CMakeFiles/log4_test.dir/build.make log/CMakeFiles/log4_test.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  6
+	@echo "Built target log4_test"
+.PHONY : log/CMakeFiles/log4_test.dir/all
+
+# Include target in all.
+all: log/CMakeFiles/log4_test.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+log/CMakeFiles/log4_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 log/CMakeFiles/log4_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 0
+.PHONY : log/CMakeFiles/log4_test.dir/rule
+
+# Convenience name for target.
+log4_test: log/CMakeFiles/log4_test.dir/rule
+.PHONY : log4_test
+
+# clean rule for target.
+log/CMakeFiles/log4_test.dir/clean:
+	$(MAKE) -f log/CMakeFiles/log4_test.dir/build.make log/CMakeFiles/log4_test.dir/clean
+.PHONY : log/CMakeFiles/log4_test.dir/clean
+
+# clean rule for target.
+clean: log/CMakeFiles/log4_test.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target log/CMakeFiles/spdlog_test.dir
+
+# All Build rule for target.
+log/CMakeFiles/spdlog_test.dir/all:
+	$(MAKE) -f log/CMakeFiles/spdlog_test.dir/build.make log/CMakeFiles/spdlog_test.dir/depend
+	$(MAKE) -f log/CMakeFiles/spdlog_test.dir/build.make log/CMakeFiles/spdlog_test.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles  16
+	@echo "Built target spdlog_test"
+.PHONY : log/CMakeFiles/spdlog_test.dir/all
+
+# Include target in all.
+all: log/CMakeFiles/spdlog_test.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+log/CMakeFiles/spdlog_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 log/CMakeFiles/spdlog_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linghutf/git-work/asio/src/CMakeFiles 0
+.PHONY : log/CMakeFiles/spdlog_test.dir/rule
+
+# Convenience name for target.
+spdlog_test: log/CMakeFiles/spdlog_test.dir/rule
+.PHONY : spdlog_test
+
+# clean rule for target.
+log/CMakeFiles/spdlog_test.dir/clean:
+	$(MAKE) -f log/CMakeFiles/spdlog_test.dir/build.make log/CMakeFiles/spdlog_test.dir/clean
+.PHONY : log/CMakeFiles/spdlog_test.dir/clean
+
+# clean rule for target.
+clean: log/CMakeFiles/spdlog_test.dir/clean
 .PHONY : clean
 
 #=============================================================================

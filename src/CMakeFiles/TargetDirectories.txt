@@ -1,4 +1,12 @@
+/home/linghutf/git-work/asio/src/serial/CMakeFiles/msg_client.dir
 /home/linghutf/git-work/asio/src/timer/CMakeFiles/async_timer.dir
+/home/linghutf/git-work/asio/src/serial/CMakeFiles/buffer_array_test.dir
+/home/linghutf/git-work/asio/src/log/CMakeFiles/log4_test.dir
+/home/linghutf/git-work/asio/src/serial/CMakeFiles/msg_server.dir
 /home/linghutf/git-work/asio/src/tcp/CMakeFiles/client.dir
+/home/linghutf/git-work/asio/src/signal/CMakeFiles/signal_test.dir
 /home/linghutf/git-work/asio/src/local/CMakeFiles/local_serv.dir
+/home/linghutf/git-work/asio/src/conn_pair/CMakeFiles/pair.dir
 /home/linghutf/git-work/asio/src/tcp/CMakeFiles/server.dir
+/home/linghutf/git-work/asio/src/signal/CMakeFiles/asio_pool.dir
+/home/linghutf/git-work/asio/src/log/CMakeFiles/spdlog_test.dir

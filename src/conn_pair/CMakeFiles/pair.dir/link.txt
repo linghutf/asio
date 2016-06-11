@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/pair.dir/pair.cc.o  -o pair -rdynamic -lboost_thread -lboost_system -lboost_chrono -lpthread 

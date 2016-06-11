@@ -3,7 +3,7 @@
 class AsyncConnection:public boost::enable_shared_from_this<AsyncConnection>{
     public:
         AsyncConnection(boost::asio::io_service& service):
-            socket_(service),bufsize_(),filesize_(0)
+            socket_(service),filesize_(0)
     {
     }
         void start()
@@ -15,7 +15,7 @@ class AsyncConnection:public boost::enable_shared_from_this<AsyncConnection>{
                         boost::asio::placeholders::bytes_transferred));
         }
 
-        boost::asio::local::stream_protocol& socket()
+        boost::asio::local::stream_protocol::socket& socket()
         {
             return socket_;
         }
@@ -34,9 +34,9 @@ class AsyncConnection:public boost::enable_shared_from_this<AsyncConnection>{
 
     private:
 
-        boost::asio::local::stream_protocol socket_;
-        size_t bufsize_;
+        boost::asio::local::stream_protocol::socket socket_;
         size_t filesize_;
+        char cache_[BUFSIZ];
 
 };
 
@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 
     ::unlink(SOCKNAME);
 
-    boost::
+
 
     return 0;
 }

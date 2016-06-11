@@ -153,6 +153,110 @@ local_serv/fast:
 	$(MAKE) -f local/CMakeFiles/local_serv.dir/build.make local/CMakeFiles/local_serv.dir/build
 .PHONY : local_serv/fast
 
+#=============================================================================
+# Target rules for targets named buffer_array_test
+
+# Build rule for target.
+buffer_array_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 buffer_array_test
+.PHONY : buffer_array_test
+
+# fast build rule for target.
+buffer_array_test/fast:
+	$(MAKE) -f serial/CMakeFiles/buffer_array_test.dir/build.make serial/CMakeFiles/buffer_array_test.dir/build
+.PHONY : buffer_array_test/fast
+
+#=============================================================================
+# Target rules for targets named msg_client
+
+# Build rule for target.
+msg_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 msg_client
+.PHONY : msg_client
+
+# fast build rule for target.
+msg_client/fast:
+	$(MAKE) -f serial/CMakeFiles/msg_client.dir/build.make serial/CMakeFiles/msg_client.dir/build
+.PHONY : msg_client/fast
+
+#=============================================================================
+# Target rules for targets named msg_server
+
+# Build rule for target.
+msg_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 msg_server
+.PHONY : msg_server
+
+# fast build rule for target.
+msg_server/fast:
+	$(MAKE) -f serial/CMakeFiles/msg_server.dir/build.make serial/CMakeFiles/msg_server.dir/build
+.PHONY : msg_server/fast
+
+#=============================================================================
+# Target rules for targets named asio_pool
+
+# Build rule for target.
+asio_pool: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 asio_pool
+.PHONY : asio_pool
+
+# fast build rule for target.
+asio_pool/fast:
+	$(MAKE) -f signal/CMakeFiles/asio_pool.dir/build.make signal/CMakeFiles/asio_pool.dir/build
+.PHONY : asio_pool/fast
+
+#=============================================================================
+# Target rules for targets named signal_test
+
+# Build rule for target.
+signal_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 signal_test
+.PHONY : signal_test
+
+# fast build rule for target.
+signal_test/fast:
+	$(MAKE) -f signal/CMakeFiles/signal_test.dir/build.make signal/CMakeFiles/signal_test.dir/build
+.PHONY : signal_test/fast
+
+#=============================================================================
+# Target rules for targets named pair
+
+# Build rule for target.
+pair: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pair
+.PHONY : pair
+
+# fast build rule for target.
+pair/fast:
+	$(MAKE) -f conn_pair/CMakeFiles/pair.dir/build.make conn_pair/CMakeFiles/pair.dir/build
+.PHONY : pair/fast
+
+#=============================================================================
+# Target rules for targets named log4_test
+
+# Build rule for target.
+log4_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 log4_test
+.PHONY : log4_test
+
+# fast build rule for target.
+log4_test/fast:
+	$(MAKE) -f log/CMakeFiles/log4_test.dir/build.make log/CMakeFiles/log4_test.dir/build
+.PHONY : log4_test/fast
+
+#=============================================================================
+# Target rules for targets named spdlog_test
+
+# Build rule for target.
+spdlog_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 spdlog_test
+.PHONY : spdlog_test
+
+# fast build rule for target.
+spdlog_test/fast:
+	$(MAKE) -f log/CMakeFiles/spdlog_test.dir/build.make log/CMakeFiles/spdlog_test.dir/build
+.PHONY : spdlog_test/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +269,14 @@ help:
 	@echo "... client"
 	@echo "... server"
 	@echo "... local_serv"
+	@echo "... msg_client"
+	@echo "... buffer_array_test"
+	@echo "... msg_server"
+	@echo "... signal_test"
+	@echo "... asio_pool"
+	@echo "... pair"
+	@echo "... log4_test"
+	@echo "... spdlog_test"
 .PHONY : help
 
 

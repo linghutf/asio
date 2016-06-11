@@ -15,6 +15,20 @@ boost/array.hpp
 -
 boost/date_time/posix_time/posix_time.hpp
 -
+boost/enable_shared_from_this.hpp
+-
+boost/smart_ptr.hpp
+-
+vector
+-
+fstream
+-
+string
+-
+iostream
+-
+stdio.h
+-
 
 /home/linghutf/git-work/asio/src/local/server.cc
 netcommon.h

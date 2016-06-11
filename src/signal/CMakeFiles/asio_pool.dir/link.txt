@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2   CMakeFiles/asio_pool.dir/asio_pool.cc.o  -o asio_pool -rdynamic -lboost_thread -lboost_system -lboost_chrono -lpthread 
