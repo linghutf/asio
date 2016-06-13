@@ -1,5 +1,5 @@
 
-  const char features[] = {""
+  const char features[] = {"\n"
 "C_FEATURE:"
 #if (__GNUC__ * 100 + __GNUC_MINOR__) >= 404
 "1"

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/linghutf/git-work/asio/src/timer/async_timer.cc
+/home/linghutf/asio/src/timer/async_timer.cc
 boost/asio.hpp
 -
 boost/date_time/posix_time/posix_time.hpp

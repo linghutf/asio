@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/linghutf/git-work/asio/src/local/netcommon.h
+/home/linghutf/asio/src/local/netcommon.h
 boost/asio.hpp
 -
 boost/bind.hpp
@@ -30,7 +30,7 @@ iostream
 stdio.h
 -
 
-/home/linghutf/git-work/asio/src/local/server.cc
+/home/linghutf/asio/src/local/server.cc
 netcommon.h
-/home/linghutf/git-work/asio/src/local/netcommon.h
+/home/linghutf/asio/src/local/netcommon.h
 

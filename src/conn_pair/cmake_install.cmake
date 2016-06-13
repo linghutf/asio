@@ -1,4 +1,4 @@
-# Install script for directory: /home/linghutf/git-work/asio/src/conn_pair
+# Install script for directory: /home/linghutf/asio/src/conn_pair
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

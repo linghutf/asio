@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/linghutf/git-work/asio/src/tcp/client.cc
+/home/linghutf/asio/src/tcp/client.cc
 netcommon.h
-/home/linghutf/git-work/asio/src/tcp/netcommon.h
+/home/linghutf/asio/src/tcp/netcommon.h
 
-/home/linghutf/git-work/asio/src/tcp/netcommon.h
+/home/linghutf/asio/src/tcp/netcommon.h
 boost/asio.hpp
 -
 boost/bind.hpp

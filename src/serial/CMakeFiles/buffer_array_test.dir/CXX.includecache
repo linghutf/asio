@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/linghutf/git-work/asio/src/serial/buffer_array.cc
+/home/linghutf/asio/src/serial/buffer_array.cc
 boost/array.hpp
 -
 iostream

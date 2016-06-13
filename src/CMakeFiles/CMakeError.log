@@ -1,27 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/linghutf/git-work/asio/src/CMakeFiles/CMakeTmp
+Change Dir: /home/linghutf/asio/src/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec514386665/fast"
-make[1]: Entering directory '/home/linghutf/git-work/asio/src/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTryCompileExec514386665.dir/build.make CMakeFiles/cmTryCompileExec514386665.dir/build
-make[2]: Entering directory '/home/linghutf/git-work/asio/src/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec514386665.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec514386665.dir/CheckSymbolExists.c.o   -c /home/linghutf/git-work/asio/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec514386665
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec514386665.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec514386665.dir/CheckSymbolExists.c.o  -o cmTryCompileExec514386665 -rdynamic 
-CMakeFiles/cmTryCompileExec514386665.dir/CheckSymbolExists.c.o：在函数‘main’中：
+Run Build Command:"/usr/bin/make" "cmTC_3b29e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b29e.dir/build.make CMakeFiles/cmTC_3b29e.dir/build
+make[1]: Entering directory '/home/linghutf/asio/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b29e.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_3b29e.dir/CheckSymbolExists.c.o   -c /home/linghutf/asio/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3b29e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b29e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_3b29e.dir/CheckSymbolExists.c.o  -o cmTC_3b29e -rdynamic 
+CMakeFiles/cmTC_3b29e.dir/CheckSymbolExists.c.o：在函数‘main’中：
 CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTryCompileExec514386665.dir/build.make:88: recipe for target 'cmTryCompileExec514386665' failed
-make[2]: Leaving directory '/home/linghutf/git-work/asio/src/CMakeFiles/CMakeTmp'
-make[2]: *** [cmTryCompileExec514386665] Error 1
-Makefile:117: recipe for target 'cmTryCompileExec514386665/fast' failed
-make[1]: *** [cmTryCompileExec514386665/fast] Error 2
-make[1]: Leaving directory '/home/linghutf/git-work/asio/src/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_3b29e.dir/build.make:97: recipe for target 'cmTC_3b29e' failed
+make[1]: *** [cmTC_3b29e] Error 1
+make[1]: Leaving directory '/home/linghutf/asio/src/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3b29e/fast' failed
+make: *** [cmTC_3b29e/fast] Error 2
 
-File /home/linghutf/git-work/asio/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/linghutf/asio/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -37,25 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/linghutf/git-work/asio/src/CMakeFiles/CMakeTmp
+Change Dir: /home/linghutf/asio/src/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3992146410/fast"
-make[1]: Entering directory '/home/linghutf/git-work/asio/src/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3992146410.dir/build.make CMakeFiles/cmTryCompileExec3992146410.dir/build
-make[2]: Entering directory '/home/linghutf/git-work/asio/src/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/linghutf/git-work/asio/src/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3992146410.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3992146410.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3992146410
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3992146410.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3992146410.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3992146410 -rdynamic -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
+Run Build Command:"/usr/bin/make" "cmTC_b7eaa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7eaa.dir/build.make CMakeFiles/cmTC_b7eaa.dir/build
+make[1]: Entering directory '/home/linghutf/asio/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7eaa.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b7eaa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b7eaa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7eaa.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b7eaa.dir/CheckFunctionExists.c.o  -o cmTC_b7eaa -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTryCompileExec3992146410.dir/build.make:88: recipe for target 'cmTryCompileExec3992146410' failed
-make[2]: Leaving directory '/home/linghutf/git-work/asio/src/CMakeFiles/CMakeTmp'
-make[2]: *** [cmTryCompileExec3992146410] Error 1
-Makefile:117: recipe for target 'cmTryCompileExec3992146410/fast' failed
-make[1]: Leaving directory '/home/linghutf/git-work/asio/src/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec3992146410/fast] Error 2
+CMakeFiles/cmTC_b7eaa.dir/build.make:97: recipe for target 'cmTC_b7eaa' failed
+make[1]: *** [cmTC_b7eaa] Error 1
+make[1]: Leaving directory '/home/linghutf/asio/src/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b7eaa/fast' failed
+make: *** [cmTC_b7eaa/fast] Error 2
 
 

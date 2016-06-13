@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/echo.dir/echo.cc.o  -o echo  -L/usr/local/lib -rdynamic -lboost_thread -lboost_system -lboost_chrono -lboost_date_time -lboost_atomic -lpthread -llog4cplus -lboost_thread -lboost_system -lboost_chrono -lboost_date_time -lboost_atomic -lpthread -llog4cplus -Wl,-rpath,/usr/local/lib 

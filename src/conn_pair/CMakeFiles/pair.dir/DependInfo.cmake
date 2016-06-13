@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/linghutf/git-work/asio/src/conn_pair/pair.cc" "/home/linghutf/git-work/asio/src/conn_pair/CMakeFiles/pair.dir/pair.cc.o"
+  "/home/linghutf/asio/src/conn_pair/pair.cc" "/home/linghutf/asio/src/conn_pair/CMakeFiles/pair.dir/pair.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/linghutf/spdlog/include"
+  )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/linghutf/spdlog/include"
-  )
-set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-set(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

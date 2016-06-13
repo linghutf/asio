@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.0)
 
 set(CMAKE_CXX_FLAGS "-O2")
 
@@ -16,3 +16,4 @@ add_subdirectory(serial)
 add_subdirectory(signal)
 add_subdirectory(conn_pair)
 add_subdirectory(log)
+add_subdirectory(base)

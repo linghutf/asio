@@ -1,4 +1,4 @@
-# Install script for directory: /home/linghutf/git-work/asio/src/signal
+# Install script for directory: /home/linghutf/asio/src/signal
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

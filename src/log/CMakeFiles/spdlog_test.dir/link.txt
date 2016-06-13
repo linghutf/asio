@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++11   CMakeFiles/spdlog_test.dir/spdlog_test.cc.o  -o spdlog_test -rdynamic -lboost_thread -lboost_system -lboost_chrono -lpthread -llog4cplus 
+/usr/bin/c++   -std=c++11   CMakeFiles/spdlog_test.dir/spdlog_test.cc.o  -o spdlog_test -rdynamic -lboost_thread -lboost_system -lboost_chrono -lboost_date_time -lboost_atomic -lpthread -llog4cplus 

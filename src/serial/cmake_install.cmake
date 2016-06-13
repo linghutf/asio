@@ -1,4 +1,4 @@
-# Install script for directory: /home/linghutf/git-work/asio/src/serial
+# Install script for directory: /home/linghutf/asio/src/serial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

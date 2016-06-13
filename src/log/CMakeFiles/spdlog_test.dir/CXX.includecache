@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/linghutf/git-work/asio/src/log/spdlog_test.cc
+/home/linghutf/asio/src/log/spdlog_test.cc
 spdlog/spdlog.h
 -
 memory

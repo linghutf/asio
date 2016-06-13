@@ -1,2 +1,2 @@
 # Hashes of file build rules.
-f92ad5e7bdf829c09c7469d580329603 serial/info.pb.cc
+f90efe3ce9ba17350f6e754401d75822 serial/info.pb.cc

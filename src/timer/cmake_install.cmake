@@ -1,4 +1,4 @@
-# Install script for directory: /home/linghutf/git-work/asio/src/timer
+# Install script for directory: /home/linghutf/asio/src/timer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

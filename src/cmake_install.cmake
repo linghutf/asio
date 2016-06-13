@@ -1,4 +1,4 @@
-# Install script for directory: /home/linghutf/git-work/asio/src
+# Install script for directory: /home/linghutf/asio/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/linghutf/git-work/asio/src/timer/cmake_install.cmake")
-  include("/home/linghutf/git-work/asio/src/tcp/cmake_install.cmake")
-  include("/home/linghutf/git-work/asio/src/local/cmake_install.cmake")
-  include("/home/linghutf/git-work/asio/src/serial/cmake_install.cmake")
-  include("/home/linghutf/git-work/asio/src/signal/cmake_install.cmake")
-  include("/home/linghutf/git-work/asio/src/conn_pair/cmake_install.cmake")
-  include("/home/linghutf/git-work/asio/src/log/cmake_install.cmake")
+  include("/home/linghutf/asio/src/timer/cmake_install.cmake")
+  include("/home/linghutf/asio/src/tcp/cmake_install.cmake")
+  include("/home/linghutf/asio/src/local/cmake_install.cmake")
+  include("/home/linghutf/asio/src/serial/cmake_install.cmake")
+  include("/home/linghutf/asio/src/signal/cmake_install.cmake")
+  include("/home/linghutf/asio/src/conn_pair/cmake_install.cmake")
+  include("/home/linghutf/asio/src/log/cmake_install.cmake")
+  include("/home/linghutf/asio/src/base/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/linghutf/git-work/asio/src/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/linghutf/asio/src/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

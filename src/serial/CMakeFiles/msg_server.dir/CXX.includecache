@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/linghutf/git-work/asio/src/serial/common.h
+/home/linghutf/asio/src/serial/common.h
 stdlib.h
 -
 string.h
@@ -26,11 +26,11 @@ boost/smart_ptr.hpp
 boost/date_time/posix_time/posix_time.hpp
 -
 info.pb.h
-/home/linghutf/git-work/asio/src/serial/info.pb.h
+/home/linghutf/asio/src/serial/info.pb.h
 
-/home/linghutf/git-work/asio/src/serial/info.pb.cc
+/home/linghutf/asio/src/serial/info.pb.cc
 info.pb.h
-/home/linghutf/git-work/asio/src/serial/info.pb.h
+/home/linghutf/asio/src/serial/info.pb.h
 algorithm
 -
 google/protobuf/stubs/common.h
@@ -50,7 +50,7 @@ google/protobuf/reflection_ops.h
 google/protobuf/wire_format.h
 -
 
-/home/linghutf/git-work/asio/src/serial/info.pb.h
+/home/linghutf/asio/src/serial/info.pb.h
 string
 -
 google/protobuf/stubs/common.h
@@ -66,7 +66,7 @@ google/protobuf/extension_set.h
 google/protobuf/unknown_field_set.h
 -
 
-/home/linghutf/git-work/asio/src/serial/server.cc
+/home/linghutf/asio/src/serial/server.cc
 common.h
-/home/linghutf/git-work/asio/src/serial/common.h
+/home/linghutf/asio/src/serial/common.h
 

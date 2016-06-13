@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/linghutf/git-work/asio/src/conn_pair/common.h
+/home/linghutf/asio/src/conn_pair/common.h
 stdlib.h
 -
 string.h
@@ -34,9 +34,9 @@ spdlog/spdlog.h
 memory
 -
 
-/home/linghutf/git-work/asio/src/conn_pair/pair.cc
+/home/linghutf/asio/src/conn_pair/pair.cc
 common.h
-/home/linghutf/git-work/asio/src/conn_pair/common.h
+/home/linghutf/asio/src/conn_pair/common.h
 boost/thread.hpp
 -
 boost/array.hpp

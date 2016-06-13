@@ -1,1 +1,1 @@
-/usr/bin/c++   -O2   CMakeFiles/msg_client.dir/client.cc.o CMakeFiles/msg_client.dir/info.pb.cc.o  -o msg_client -rdynamic -lboost_thread -lboost_system -lboost_chrono -lpthread -lprotobuf -lpthread 
+/usr/bin/c++   -O2   CMakeFiles/msg_client.dir/client.cc.o CMakeFiles/msg_client.dir/info.pb.cc.o  -o msg_client -rdynamic -lboost_thread -lboost_system -lboost_chrono -lboost_date_time -lboost_atomic -lpthread -lprotobuf -lpthread 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/linghutf/git-work/asio/src/log/common.h
+/home/linghutf/asio/src/log/common.h
 log4cplus/logger.h
 -
 log4cplus/loggingmacros.h
@@ -26,7 +26,7 @@ log4cplus/asyncappender.h
 log4cplus/layout.h
 -
 
-/home/linghutf/git-work/asio/src/log/log4cplus.cc
+/home/linghutf/asio/src/log/log4cplus.cc
 common.h
-/home/linghutf/git-work/asio/src/log/common.h
+/home/linghutf/asio/src/log/common.h
 
